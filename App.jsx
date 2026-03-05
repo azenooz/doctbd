@@ -1,6 +1,3 @@
-Doctbd v14 · JSX
-Copy
-
 import { useState, useCallback, useEffect, useRef } from "react";
 
 const C = {
