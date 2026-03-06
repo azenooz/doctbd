@@ -48,7 +48,7 @@ const COMMON_DIAGNOSES = [
 ];
 
 // ─── AI ───────────────────────────────────────────────────────────────────────
-const ANTHROPIC_KEY = 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
+const ANTHROPIC_KEY = "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"
 
 async function callClaude(system, user, maxTokens = 7000) {
   const res = await fetch("https://api.anthropic.com/v1/messages", {
